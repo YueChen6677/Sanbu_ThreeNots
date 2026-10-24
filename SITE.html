@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三不 THE THREE NOTS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="SITE.css">
+</head>
+<body>
+
+  <video id="bg-video" class="hidden" playsinline muted preload="auto"></video>
+\
+  <video id="main-video" class="hidden" playsinline preload="auto"></video>
+
+  <!-- 进入页-->
+  <div id="enter" class="screen">
+    <button id="enter-btn" class="link-btn">
+      <span class="en" data-text="Click to Enter"></span>
+    </button>
+  </div>
+
+  <!-- 主页 -->
+  <div id="home" class="screen hidden">
+    <h1>
+      <span class="zh">三不</span>
+      <span class="en" data-text="THE THREE NOTS"></span>
+    </h1>
+    <p>
+      <span class="en" data-text="For the indecisive, draw a stick."></span>
+    </p>
+    <p>
+      <span class="en" data-text="Whether to speak, to look, or to listen, you needn't decide."></span>
+    </p>
+    <button id="draw-btn" class="link-btn">
+      <span class="en">Draw a Fortune</span>
+    </button>
+  </div>
+
+  <!-- again -->
+  <div id="again" class="screen hidden">
+    <button id="again-btn" class="link-btn">
+      <span class="en">Draw Again</span>
+    </button>
+  </div>
+
+  <!-- 跳过（右下角） -->
+  <button id="skip-btn" class="link-btn hidden">Skip</button>
+
+  <script src="SITE3.js"></script>
+</body>
+</html>
